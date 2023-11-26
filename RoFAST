@@ -101,8 +101,8 @@ text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 text.BackgroundTransparency = 1.000
 text.BorderColor3 = Color3.fromRGB(0, 0, 0)
 text.BorderSizePixel = 0
-text.Position = UDim2.new(0.00489376392, 0, -0.0277050473, 0)
-text.Size = UDim2.new(0, 451, 0, 57)
+text.Position = UDim2.new(0.0103356428, 0, -0.0255406275, 0)
+text.Size = UDim2.new(0, 447, 0, 56)
 text.Font = Enum.Font.FredokaOne
 text.Text = "PSX Scam - v3.2 (Private)"
 text.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -208,7 +208,7 @@ UICorner_8.Parent = Dupe
 
 -- Scripts:
 
-local function QGFTJN_fake_script() -- farme1.LocalScript 
+local function LTZFL_fake_script() -- farme1.LocalScript 
 	local script = Instance.new('LocalScript', farme1)
 
 	local UIS = game:GetService('UserInputService')
@@ -283,8 +283,8 @@ local function QGFTJN_fake_script() -- farme1.LocalScript
 	
 	
 end
-coroutine.wrap(QGFTJN_fake_script)()
-local function DLIPQ_fake_script() -- Info.LocalScript 
+coroutine.wrap(LTZFL_fake_script)()
+local function FQWA_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Parent:WaitForChild("Frame") 
@@ -292,4 +292,4 @@ local function DLIPQ_fake_script() -- Info.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(DLIPQ_fake_script)()
+coroutine.wrap(FQWA_fake_script)()
