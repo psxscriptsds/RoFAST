@@ -11,6 +11,7 @@ local UICorner_2 = Instance.new("UICorner")
 local bug = Instance.new("TextLabel")
 local bug_2 = Instance.new("TextLabel")
 local made = Instance.new("TextLabel")
+local text = Instance.new("TextLabel")
 local BoothScam = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local TradeScam = Instance.new("TextButton")
@@ -23,7 +24,6 @@ local Info = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local Dupe = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local name = Instance.new("TextLabel")
 
 --Properties:
 
@@ -94,6 +94,21 @@ made.TextColor3 = Color3.fromRGB(0, 0, 0)
 made.TextScaled = true
 made.TextSize = 14.000
 made.TextWrapped = true
+
+text.Name = "text"
+text.Parent = frame
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+text.BorderSizePixel = 0
+text.Position = UDim2.new(0.00489376392, 0, -0.0277050473, 0)
+text.Size = UDim2.new(0, 451, 0, 57)
+text.Font = Enum.Font.FredokaOne
+text.Text = "PSX Scam - v3.2 (Private)"
+text.TextColor3 = Color3.fromRGB(0, 0, 0)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
 
 BoothScam.Name = "Booth Scam"
 BoothScam.Parent = farme1
@@ -191,24 +206,9 @@ Dupe.TextWrapped = true
 
 UICorner_8.Parent = Dupe
 
-name.Name = "name"
-name.Parent = farme1
-name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name.BackgroundTransparency = 1.000
-name.BorderColor3 = Color3.fromRGB(0, 0, 0)
-name.BorderSizePixel = 0
-name.Position = UDim2.new(0.0202110596, 0, 0.0231423751, 0)
-name.Size = UDim2.new(0, 451, 0, 57)
-name.Font = Enum.Font.FredokaOne
-name.Text = "PSX Scam - v3.2 (Private)"
-name.TextColor3 = Color3.fromRGB(0, 0, 0)
-name.TextScaled = true
-name.TextSize = 14.000
-name.TextWrapped = true
-
 -- Scripts:
 
-local function KPIFFGV_fake_script() -- farme1.LocalScript 
+local function QGFTJN_fake_script() -- farme1.LocalScript 
 	local script = Instance.new('LocalScript', farme1)
 
 	local UIS = game:GetService('UserInputService')
@@ -283,8 +283,8 @@ local function KPIFFGV_fake_script() -- farme1.LocalScript
 	
 	
 end
-coroutine.wrap(KPIFFGV_fake_script)()
-local function ACQL_fake_script() -- Info.LocalScript 
+coroutine.wrap(QGFTJN_fake_script)()
+local function DLIPQ_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Parent:WaitForChild("Frame") 
@@ -292,4 +292,4 @@ local function ACQL_fake_script() -- Info.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(ACQL_fake_script)()
+coroutine.wrap(DLIPQ_fake_script)()
