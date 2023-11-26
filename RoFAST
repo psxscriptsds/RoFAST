@@ -192,12 +192,12 @@ Dupe.TextWrapped = true
 UICorner_8.Parent = Dupe
 
 name.Name = "name"
-name.Parent = ScreenGui
+name.Parent = farme1
 name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 name.BackgroundTransparency = 1.000
 name.BorderColor3 = Color3.fromRGB(0, 0, 0)
 name.BorderSizePixel = 0
-name.Position = UDim2.new(0.408746094, 0, 0.320331156, 0)
+name.Position = UDim2.new(0.0202110596, 0, 0.0231423751, 0)
 name.Size = UDim2.new(0, 451, 0, 57)
 name.Font = Enum.Font.FredokaOne
 name.Text = "PSX Scam - v3.2 (Private)"
@@ -208,7 +208,7 @@ name.TextWrapped = true
 
 -- Scripts:
 
-local function CIWD_fake_script() -- farme1.LocalScript 
+local function KPIFFGV_fake_script() -- farme1.LocalScript 
 	local script = Instance.new('LocalScript', farme1)
 
 	local UIS = game:GetService('UserInputService')
@@ -283,8 +283,8 @@ local function CIWD_fake_script() -- farme1.LocalScript
 	
 	
 end
-coroutine.wrap(CIWD_fake_script)()
-local function YXXHUD_fake_script() -- Info.LocalScript 
+coroutine.wrap(KPIFFGV_fake_script)()
+local function ACQL_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Parent:WaitForChild("Frame") 
@@ -292,4 +292,4 @@ local function YXXHUD_fake_script() -- Info.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(YXXHUD_fake_script)()
+coroutine.wrap(ACQL_fake_script)()
