@@ -23,7 +23,7 @@ local Info = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local Dupe = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local name = Instance.new("TextLabel")
+local text = Instance.new("TextLabel")
 
 --Properties:
 
@@ -191,24 +191,24 @@ Dupe.TextWrapped = true
 
 UICorner_8.Parent = Dupe
 
-name.Name = "name"
-name.Parent = ScreenGui
-name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name.BackgroundTransparency = 1.000
-name.BorderColor3 = Color3.fromRGB(0, 0, 0)
-name.BorderSizePixel = 0
-name.Position = UDim2.new(0.408746094, 0, 0.320331156, 0)
-name.Size = UDim2.new(0, 451, 0, 57)
-name.Font = Enum.Font.FredokaOne
-name.Text = "PSX Scam - v3.2 (Private)"
-name.TextColor3 = Color3.fromRGB(0, 0, 0)
-name.TextScaled = true
-name.TextSize = 14.000
-name.TextWrapped = true
+text.Name = "text"
+text.Parent = farme1
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+text.BorderSizePixel = 0
+text.Position = UDim2.new(0.408746094, 0, 0.320331156, 0)
+text.Size = UDim2.new(0, 451, 0, 57)
+text.Font = Enum.Font.FredokaOne
+text.Text = "PSX Scam - v3.2 (Private)"
+text.TextColor3 = Color3.fromRGB(0, 0, 0)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
 
 -- Scripts:
 
-local function TFPXWK_fake_script() -- farme1.LocalScript 
+local function AKIGSLQ_fake_script() -- farme1.LocalScript 
 	local script = Instance.new('LocalScript', farme1)
 
 	local UIS = game:GetService('UserInputService')
@@ -283,8 +283,8 @@ local function TFPXWK_fake_script() -- farme1.LocalScript
 	
 	
 end
-coroutine.wrap(TFPXWK_fake_script)()
-local function TNFD_fake_script() -- Info.LocalScript 
+coroutine.wrap(AKIGSLQ_fake_script)()
+local function WGEN_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Parent:WaitForChild("Frame") 
@@ -292,4 +292,4 @@ local function TNFD_fake_script() -- Info.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(TNFD_fake_script)()
+coroutine.wrap(WGEN_fake_script)()
